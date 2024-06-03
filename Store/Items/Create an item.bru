@@ -1,0 +1,19 @@
+meta {
+  name: Create an item
+  type: http
+  seq: 1
+}
+
+post {
+  url: {{url}}/item
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "Nike Air Force",
+    "price": "119.99",
+    "store_id": "22b0291fda494ba9850908a57ad4dd9d"
+  }
+}

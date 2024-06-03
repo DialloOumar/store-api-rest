@@ -1,0 +1,17 @@
+meta {
+  name: Create a store
+  type: http
+  seq: 1
+}
+
+post {
+  url: {{url}}/store
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "Nike"
+  }
+}

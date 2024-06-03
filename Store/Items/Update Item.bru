@@ -1,0 +1,18 @@
+meta {
+  name: Update Item
+  type: http
+  seq: 5
+}
+
+put {
+  url: {{url}}/item/aa4eaf67efde49b48db44e7897a83168
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "Air Jordan", 
+   "price": 109.99
+  }
+}
